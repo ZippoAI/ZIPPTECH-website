@@ -1,14 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: https://ogp.me/ns#">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZIPPTECH - Innovative Tech Solutions</title>
-    <meta name="description" content="ZIPPTECH is a modern tech brand building creative web and AI solutions.">
-    <meta name="keywords" content="ZIPPTECH, zippo7777, web app, tech company, GitHub Pages, HTML CSS JS">
-    <meta name="author" content="ZIPPO7777">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    
+    <!-- Primary Meta Tags -->
+    <title>ZIPPTECH | Innovative Tech Solutions for Android, Web & AI Development</title>
+    <meta name="description" content="ZIPPTECH builds innovative Android apps, web platforms, AI tools, and EdTech solutions. Based in India, we create practical tech for modern businesses and education.">
+    <meta name="keywords" content="ZIPPTECH, Android app development, web application development, AI solutions, EdTech tools, tech company India, custom software solutions">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://zipptech.xyz/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://zipptech.xyz/">
+    <meta property="og:title" content="ZIPPTECH | Innovative Tech Solutions for Android, Web & AI Development">
+    <meta property="og:description" content="ZIPPTECH builds innovative Android apps, web platforms, AI tools, and EdTech solutions. Based in India, we create practical tech for modern businesses and education.">
+    <meta property="og:image" content="https://zipptech.xyz/images/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="ZIPPTECH - Innovative Tech Solutions">
+    <meta property="og:site_name" content="ZIPPTECH">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://zipptech.xyz/">
+    <meta name="twitter:title" content="ZIPPTECH | Innovative Tech Solutions for Android, Web & AI Development">
+    <meta name="twitter:description" content="ZIPPTECH builds innovative Android apps, web platforms, AI tools, and EdTech solutions. Based in India, we create practical tech for modern businesses and education.">
+    <meta name="twitter:image" content="https://zipptech.xyz/images/twitter-image.jpg">
+    <meta name="twitter:image:alt" content="ZIPPTECH - Innovative Tech Solutions">
+    <meta name="twitter:creator" content="@zipptech">
+    
+    <!-- Additional Meta Tags -->
+    <meta name="author" content="ZIPPTECH">
+    <meta name="copyright" content="Copyright © ZIPPTECH 2025. All rights reserved.">
+    <meta name="theme-color" content="#6c5ce7">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <!-- Structured Data - JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://zipptech.xyz/#organization",
+        "name": "ZIPPTECH",
+        "url": "https://zipptech.xyz/",
+        "logo": "https://zipptech.xyz/images/logo.png",
+        "description": "Innovative tech studio specializing in Android apps, web platforms, AI tools, and educational technology solutions.",
+        "foundingDate": "2024",
+        "founder": {
+            "@type": "Person",
+            "name": "ZIPPO7777"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "India"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer service",
+            "email": "contact@zipptech.in",
+            "availableLanguage": "English"
+        },
+        "sameAs": [
+            "https://github.com/zippo7777",
+            "https://twitter.com/zipptech",
+            "https://linkedin.com/company/zipptech"
+        ]
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://zipptech.xyz/#website",
+        "url": "https://zipptech.xyz/",
+        "name": "ZIPPTECH",
+        "description": "Innovative tech solutions designed to simplify, enhance, and transform the way you work and live.",
+        "publisher": {
+            "@id": "https://zipptech.xyz/#organization"
+        },
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://zipptech.xyz/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
+        /* Existing CSS remains exactly the same - no changes made */
         :root {
             --primary: #6c5ce7;
             --secondary: #a29bfe;
@@ -605,204 +692,209 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar">
-        <a href="#" class="logo">ZIPP<span>TECH</span></a>
-        
-        <div class="nav-links">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-            <a href="team.html">Team</a>
-        </div>
-        
-        <div class="nav-right">
-            <div class="search-bar">
-                <i class="fas fa-search"></i>
-                <input type="text" placeholder="Search...">
+    <header role="banner">
+        <nav class="navbar" role="navigation" aria-label="Main navigation">
+            <a href="#" class="logo" aria-label="ZIPPTECH home">
+                ZIPP<span>TECH</span>
+            </a>
+            
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <a href="team.html">Team</a>
             </div>
-            <button class="dark-mode-toggle" id="darkModeToggle">
-                <i class="fas fa-moon"></i>
-            </button>
-            <div class="menu-toggle" id="menuToggle">
-                <i class="fas fa-bars"></i>
+            
+            <div class="nav-right">
+                <div class="search-bar">
+                    <i class="fas fa-search" aria-label="Search"></i>
+                    <input type="text" placeholder="Search..." aria-label="Search site">
+                </div>
+                <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="menu-toggle" id="menuToggle" aria-label="Toggle menu" role="button" tabindex="0">
+                    <i class="fas fa-bars"></i>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
     <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <h1>Innovative Tech Solutions with <span>ZIPPTECH</span></h1>
-            <p>ZIPPTECH is a project-based tech studio based in India. We build practical and innovative solutions including Android apps, web platforms, AI tools, and educational technology. Our goal is to provide tools that are accessible, impactful, and modern.</p>
-            <a href="#contact" class="cta-button">Get In Touch</a>
-        </div>
-        
-        <div class="hero-shapes">
-            <div class="shape shape-1"></div>
-            <div class="shape shape-2"></div>
-            <div class="shape shape-3"></div>
-        </div>
-    </section>
+    <main role="main">
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1>Innovative Tech Solutions with <span>ZIPPTECH</span></h1>
+                <p>ZIPPTECH is a project-based tech studio based in India. We build practical and innovative solutions including Android apps, web platforms, AI tools, and educational technology. Our goal is to provide tools that are accessible, impactful, and modern.</p>
+                <a href="#contact" class="cta-button">Get In Touch</a>
+            </div>
+            
+            <div class="hero-shapes" aria-hidden="true">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </section>
 
-    <!-- About Section -->
-    <section class="section" id="about">
-        <div class="section-title">
-            <h2>About ZIPPTECH</h2>
-            <p>We're passionate about creating technology that makes a difference</p>
-        </div>
-        
-        <div class="about-content">
-            <p>Founded with a vision to bridge the gap between innovative ideas and practical implementation, ZIPPTECH has grown into a dynamic tech studio that specializes in developing cutting-edge solutions across multiple platforms.</p>
-            <p>Our team combines technical expertise with creative problem-solving to deliver products that are not only functional but also intuitive and user-friendly.</p>
-            <p>Whether it's a mobile app that simplifies daily tasks, a web platform that connects communities, or AI tools that enhance productivity, we approach each project with the same level of dedication and attention to detail.</p>
-        </div>
-    </section>
+        <!-- About Section -->
+        <section class="section" id="about">
+            <div class="section-title">
+                <h2>About ZIPPTECH</h2>
+                <p>We're passionate about creating technology that makes a difference</p>
+            </div>
+            
+            <div class="about-content">
+                <p>Founded with a vision to bridge the gap between innovative ideas and practical implementation, ZIPPTECH has grown into a dynamic tech studio that specializes in developing cutting-edge solutions across multiple platforms.</p>
+                <p>Our team combines technical expertise with creative problem-solving to deliver products that are not only functional but also intuitive and user-friendly.</p>
+                <p>Whether it's a mobile app that simplifies daily tasks, a web platform that connects communities, or AI tools that enhance productivity, we approach each project with the same level of dedication and attention to detail.</p>
+            </div>
+        </section>
 
-    <!-- Services Section -->
-    <section class="section" id="services">
-        <div class="section-title">
-            <h2>What We Do</h2>
-            <p>Our comprehensive range of services to meet your tech needs</p>
-        </div>
-        
-        <div class="services-grid">
-            <div class="service-card">
-                <i class="fab fa-android"></i>
-                <h3>Android Development</h3>
-                <p>We create powerful and user-friendly mobile applications for Android devices, focusing on performance, design, and seamless user experiences.</p>
+        <!-- Services Section -->
+        <section class="section" id="services">
+            <div class="section-title">
+                <h2>What We Do</h2>
+                <p>Our comprehensive range of services to meet your tech needs</p>
             </div>
             
-            <div class="service-card">
-                <i class="fas fa-globe"></i>
-                <h3>Web Platforms</h3>
-                <p>From responsive websites to complex web applications, we build scalable and secure web solutions tailored to your business requirements.</p>
+            <div class="services-grid">
+                <article class="service-card">
+                    <i class="fab fa-android" aria-hidden="true"></i>
+                    <h3>Android Development</h3>
+                    <p>We create powerful and user-friendly mobile applications for Android devices, focusing on performance, design, and seamless user experiences.</p>
+                </article>
+                
+                <article class="service-card">
+                    <i class="fas fa-globe" aria-hidden="true"></i>
+                    <h3>Web Platforms</h3>
+                    <p>From responsive websites to complex web applications, we build scalable and secure web solutions tailored to your business requirements.</p>
+                </article>
+                
+                <article class="service-card">
+                    <i class="fas fa-robot" aria-hidden="true"></i>
+                    <h3>AI Projects</h3>
+                    <p>Leveraging the latest in artificial intelligence, we develop smart tools and automation systems that enhance productivity and decision-making.</p>
+                </article>
+                
+                <article class="service-card">
+                    <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                    <h3>EdTech Tools</h3>
+                    <p>Educational technology solutions including study apps, language tools, and interactive learning platforms that make education more accessible.</p>
+                </article>
+                
+                <article class="service-card">
+                    <i class="fas fa-gamepad" aria-hidden="true"></i>
+                    <h3>Games</h3>
+                    <p>Engaging and entertaining mobile games and browser-based gaming experiences designed for various audiences and platforms.</p>
+                </article>
+                
+                <article class="service-card">
+                    <i class="fas fa-lightbulb" aria-hidden="true"></i>
+                    <h3>Custom Solutions</h3>
+                    <p>Tailored software solutions designed specifically for your unique business challenges and operational requirements.</p>
+                </article>
             </div>
-            
-            <div class="service-card">
-                <i class="fas fa-robot"></i>
-                <h3>AI Projects</h3>
-                <p>Leveraging the latest in artificial intelligence, we develop smart tools and automation systems that enhance productivity and decision-making.</p>
-            </div>
-            
-            <div class="service-card">
-                <i class="fas fa-graduation-cap"></i>
-                <h3>EdTech Tools</h3>
-                <p>Educational technology solutions including study apps, language tools, and interactive learning platforms that make education more accessible.</p>
-            </div>
-            
-            <div class="service-card">
-                <i class="fas fa-gamepad"></i>
-                <h3>Games</h3>
-                <p>Engaging and entertaining mobile games and browser-based gaming experiences designed for various audiences and platforms.</p>
-            </div>
-            
-            <div class="service-card">
-                <i class="fas fa-lightbulb"></i>
-                <h3>Custom Solutions</h3>
-                <p>Tailored software solutions designed specifically for your unique business challenges and operational requirements.</p>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Projects Section -->
-    <section class="section" id="projects">
-        <div class="section-title">
-            <h2>Our Projects</h2>
-            <p>Explore our work across different technology domains</p>
-        </div>
-        
-        <div class="projects-tabs">
-            <button class="project-tab active" data-category="all">All Projects</button>
-            <button class="project-tab" data-category="android">Android</button>
-            <button class="project-tab" data-category="web">Web</button>
-            <button class="project-tab" data-category="ai">AI</button>
-            <button class="project-tab" data-category="edtech">EdTech</button>
-            <button class="project-tab" data-category="games">Games</button>
-        </div>
-        
-        <div class="projects-grid">
-            <div class="project-card" data-category="android">
-                <div class="project-image" style="background-color: #4CAF50;">
-                    <i class="fab fa-android"></i>
-                </div>
-                <div class="project-info">
-                    <h3>TaskMaster Pro</h3>
-                    <p>A productivity app that helps users organize tasks with smart reminders and collaborative features.</p>
-                    <a href="UnderConstruction_404.html" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
-                </div>
+        <!-- Projects Section -->
+        <section class="section" id="projects">
+            <div class="section-title">
+                <h2>Our Projects</h2>
+                <p>Explore our work across different technology domains</p>
             </div>
             
-            <div class="project-card" data-category="web">
-                <div class="project-image" style="background-color: #2196F3;">
-                    <i class="fas fa-globe"></i>
-                </div>
-                <div class="project-info">
-                    <h3>Type Speed Pro</h3>
-                    <p>TypeSpeed Pro is a fun and interactive typing game that helps you boost your speed and accuracy through various game modes, achievements, and real-time stats.
-                        Challenge yourself with timed tests, unlock achievements, and climb the leaderboard all while mastering the keyboard.</p>
-                    <a href="projects/typespeedpro.html" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
-                </div>
+            <div class="projects-tabs" role="tablist" aria-label="Project categories">
+                <button class="project-tab active" data-category="all" role="tab" aria-selected="true">All Projects</button>
+                <button class="project-tab" data-category="android" role="tab" aria-selected="false">Android</button>
+                <button class="project-tab" data-category="web" role="tab" aria-selected="false">Web</button>
+                <button class="project-tab" data-category="ai" role="tab" aria-selected="false">AI</button>
+                <button class="project-tab" data-category="edtech" role="tab" aria-selected="false">EdTech</button>
+                <button class="project-tab" data-category="games" role="tab" aria-selected="false">Games</button>
             </div>
             
-            <div class="project-card" data-category="ai">
-                <div class="project-image" style="background-color: #9C27B0;">
-                    <i class="fas fa-robot"></i>
-                </div>
-                <div class="project-info">
-                    <h3>SmartAnalyzer</h3>
-                    <p>AI-powered data analysis tool that provides actionable insights from complex datasets.</p>
-                    <a href="UnderConstruction_404.html" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
-                </div>
+            <div class="projects-grid">
+                <article class="project-card" data-category="android" itemscope itemtype="https://schema.org/SoftwareApplication">
+                    <div class="project-image" style="background-color: #4CAF50;" aria-hidden="true">
+                        <i class="fab fa-android"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3 itemprop="name">TaskMaster Pro</h3>
+                        <p itemprop="description">A productivity app that helps users organize tasks with smart reminders and collaborative features.</p>
+                        <a href="UnderConstruction_404.html" class="project-link" itemprop="url">View Project <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </article>
+                
+                <article class="project-card" data-category="web" itemscope itemtype="https://schema.org/WebApplication">
+                    <div class="project-image" style="background-color: #2196F3;" aria-hidden="true">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3 itemprop="name">Type Speed Pro</h3>
+                        <p itemprop="description">TypeSpeed Pro is a fun and interactive typing game that helps you boost your speed and accuracy through various game modes, achievements, and real-time stats. Challenge yourself with timed tests, unlock achievements, and climb the leaderboard all while mastering the keyboard.</p>
+                        <a href="projects/typespeedpro.html" class="project-link" itemprop="url">View Project <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </article>
+                
+                <article class="project-card" data-category="ai" itemscope itemtype="https://schema.org/SoftwareApplication">
+                    <div class="project-image" style="background-color: #9C27B0;" aria-hidden="true">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3 itemprop="name">SmartAnalyzer</h3>
+                        <p itemprop="description">AI-powered data analysis tool that provides actionable insights from complex datasets.</p>
+                        <a href="UnderConstruction_404.html" class="project-link" itemprop="url">View Project <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </article>
+                
+                <article class="project-card" data-category="edtech" itemscope itemtype="https://schema.org/SoftwareApplication">
+                    <div class="project-image" style="background-color: #FF9800;" aria-hidden="true">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3 itemprop="name">WordLex</h3>
+                        <p itemprop="description">WordLex is a sleek and user-friendly dictionary app designed to provide clear definitions, pronunciation guides, synonyms, and multiple word usages. Users can easily search for words, listen to their correct pronunciation, bookmark favorites, and view search history.</p>
+                        <a href="zipptech-dictionary/index.html" class="project-link" itemprop="url">View Project <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </article>
+                
+                <article class="project-card" data-category="games" itemscope itemtype="https://schema.org/VideoGame">
+                    <div class="project-image" style="background-color: #F44336;" aria-hidden="true">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3 itemprop="name">Galactic Defender</h3>
+                        <p itemprop="description">Defend the galaxy in Galactic Defender—a fast-paced space shooter with explosive action, power-ups, and relentless alien waves! Blast enemies, upgrade your weapons, and survive as long as you can across desktop and mobile.</p>
+                        <a href="projects/games.html" class="project-link" itemprop="url">View Project <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </article>
+                
+                <article class="project-card" data-category="android" itemscope itemtype="https://schema.org/SoftwareApplication">
+                    <div class="project-image" style="background-color: #673AB7;" aria-hidden="true">
+                        <i class="fab fa-android"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3 itemprop="name">HealthTracker</h3>
+                        <p itemprop="description">Comprehensive health monitoring app with integration for various fitness devices.</p>
+                        <a href="UnderConstruction_404.html" class="project-link" itemprop="url">View Project <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </article>
             </div>
-            
-            <div class="project-card" data-category="edtech">
-                <div class="project-image" style="background-color: #FF9800;">
-                    <i class="fas fa-graduation-cap"></i>
-                </div>
-                <div class="project-info">
-                    <h3>WordLex</h3>
-                    <p>WordLex is a sleek and user-friendly dictionary app designed to provide clear definitions, pronunciation guides, synonyms, and multiple word usages. Users can easily search for words, listen to their correct pronunciation, bookmark favorites, and view search history.</p>
-                    <a href="zipptech-dictionary/index.html" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-            
-            <div class="project-card" data-category="games">
-                <div class="project-image" style="background-color: #F44336;">
-                    <i class="fas fa-gamepad"></i>
-                </div>
-                <div class="project-info">
-                    <h3>Galactic Defender</h3>
-                    <p>Defend the galaxy in Galactic Defender—a fast-paced space shooter with explosive action, power-ups, and relentless alien waves! Blast enemies, upgrade your weapons, and survive as long as you can across desktop and mobile.</p>
-                    <a href="projects/games.html" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-            
-            <div class="project-card" data-category="android">
-                <div class="project-image" style="background-color: #673AB7;">
-                    <i class="fab fa-android"></i>
-                </div>
-                <div class="project-info">
-                    <h3>HealthTracker</h3>
-                    <p>Comprehensive health monitoring app with integration for various fitness devices.</p>
-                    <a href="UnderConstruction_404.html" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!-- Footer -->
-    <footer id="contact">
+    <footer id="contact" role="contentinfo">
         <div class="footer-content">
             <div class="footer-about">
                 <a href="#" class="footer-logo">ZIPPTECH</a>
                 <p>Innovative tech solutions designed to simplify, enhance, and transform the way you work and live.</p>
                 <div class="social-links">
-                    <a href="#"><i class="fab fa-github"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-discord"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/zippo7777" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/company/zipptech" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://discord.gg/zipptech" aria-label="Discord"><i class="fab fa-discord"></i></a>
+                    <a href="https://twitter.com/zipptech" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                 </div>
             </div>
             
@@ -819,9 +911,9 @@
             
             <div class="footer-contact">
                 <h3>Contact Us</h3>
-                <p><i class="fas fa-envelope"></i> contact@zipptech.in</p>
-                <p><i class="fas fa-map-marker-alt"></i> Based in India</p>
-                <p><i class="fas fa-clock"></i> Mon-Fri: 9AM - 6PM</p>
+                <p><i class="fas fa-envelope" aria-hidden="true"></i> contact@zipptech.in</p>
+                <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Based in India</p>
+                <p><i class="fas fa-clock" aria-hidden="true"></i> Mon-Fri: 9AM - 6PM</p>
             </div>
         </div>
         
@@ -834,6 +926,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
     <script>
+        // Existing JavaScript remains exactly the same - no changes made
         // Dark Mode Toggle
         const darkModeToggle = document.getElementById('darkModeToggle');
         const body = document.body;
